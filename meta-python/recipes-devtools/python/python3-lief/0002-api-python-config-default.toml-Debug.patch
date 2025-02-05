@@ -12,17 +12,14 @@ Signed-off-by: Leon Anavi <leon.anavi@konsulko.com>
  api/python/config-default.toml | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/api/python/config-default.toml b/api/python/config-default.toml
-index 519bc046..49477864 100644
 --- a/api/python/config-default.toml
 +++ b/api/python/config-default.toml
-@@ -1,5 +1,5 @@
+@@ -1,6 +1,6 @@
  [lief.build]
 -type          = "Release"
+-cache         = true
 +type          = "Debug"
- cache         = true
++cache         = false
  ninja         = true
  parallel-jobs = 0
--- 
-2.39.5
-
+ 
